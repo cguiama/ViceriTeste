@@ -31,6 +31,9 @@ namespace UserManagement.Api.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<DateTime>("Nasc")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("TEXT");

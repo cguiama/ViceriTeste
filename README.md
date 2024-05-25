@@ -12,25 +12,21 @@
 <h2 align="center"> Requisições</h2>
 
 - [x] Cadastro de usuário
-- [ ] Implementar Features de Cadastro
+- [x] Implementar Features de Cadastro
 - [x] Listagem de usuário
 - [x] Listagem de usuário por Id
-- [ ] Implementar Features de Listagem
+- [x] Implementar Features de Listagem
 - [x] Atualização de informações do usuário por Id
 - [x] Exclusão de um usuário por Id
 - [x] Disponibilização da documentação da API utilizando o Swagger
 - [ ] Queries T-SQL
 
-<h3>Autor</h3>
 <hr>
+<div align="center">
 <a href="https://cguiama.github.io">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/45200933?v=4" width="100px;" alt=""/>
  </a>
  <br>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cguiama/)](https://www.linkedin.com/in/cguiama/) 
-<hr>
-![Static Badge](https://img.shields.io/badge/tecnologias-%23512BD4?style=for-the-badge&link=https%3A%2F%2Fdotnet.microsoft.com%2Fpt-br%2F)
-![.NET Badge](https://img.shields.io/badge/.net-%23512BD4?style=for-the-badge)
-![MySQL Badge](https://img.shields.io/badge/MySQL-%234479A1?style=for-the-badge&link=https%3A%2F%2Fdotnet.microsoft.com%2Fpt-br%2F)
-![Swagger Badge](https://img.shields.io/badge/Swagger-%2385EA2D?style=for-the-badge&logo=swagger&logoColor=black&link=https%3A%2F%2Fdotnet.microsoft.com%2Fpt-br%2F)
+[![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cguiama/)](https://www.linkedin.com/in/cguiama/)
+</div>

@@ -1,3 +1,3 @@
 ﻿namespace UserManagement.Api.Models;
 
-public record AddClientRequest(string Cpf, string Nome, string Mail, string Senha);
+public record AddClientRequest(string Cpf, string Nome, string Mail, string Senha, DateTime Nasc);

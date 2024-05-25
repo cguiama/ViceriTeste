@@ -13,27 +13,28 @@ public class Client
         private set
         {
             if (!Validations.CPFValidation.IsValid(value))
-                throw new ArgumentException("CPF inválido");
+                throw new ArgumentException("CPF digitado é inválido");
             _cpf = value;
         }
     }
-    // public DateTime Nasc { get; private set; }
-
-    public Client(string cpf, string nome, string mail, string senha)
+    public DateTime Nasc { get; private set; }
+    
+    public Client(string cpf, string nome, string mail, string senha, DateTime nasc)
     {
         Id = Guid.NewGuid();
         Nome = nome;
         Mail = mail;
         Cpf = cpf;
         Senha = senha;
-        // Nasc = nasc.Date;
+        Nasc = nasc;
     }
 
-    public void dataUpdate(string cpf, string nome, string mail, string senha)
+    public void dataUpdate(string cpf, string nome, string mail, string senha, DateTime nasc)
     {
         Nome = nome;
         Mail = mail;
         Cpf = cpf;
         Senha = senha;
+        Nasc = nasc;
     }
 }

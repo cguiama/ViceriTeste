@@ -19,7 +19,8 @@ namespace UserManagement.Api.Migrations
                     Nome = table.Column<string>(type: "TEXT", nullable: false),
                     Mail = table.Column<string>(type: "TEXT", nullable: false),
                     Senha = table.Column<string>(type: "TEXT", nullable: false),
-                    Cpf = table.Column<string>(type: "TEXT", nullable: false)
+                    Cpf = table.Column<string>(type: "TEXT", nullable: false),
+                    Nasc = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

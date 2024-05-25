@@ -11,7 +11,7 @@ using UserManagement.Api.Data;
 namespace UserManagement.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240524233617_Initial")]
+    [Migration("20240525060055_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -32,6 +32,9 @@ namespace UserManagement.Api.Migrations
 
                     b.Property<string>("Mail")
                         .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Nasc")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")

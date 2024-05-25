@@ -21,6 +21,7 @@
     <Compile Remove="ClientsRoots\**" />
     <Compile Remove="ClientsRoutes\**" />
     <Compile Remove="Clients\**" />
+    <Compile Remove="Models\ClientIdSearch.cs" />
   </ItemGroup>
 
   <ItemGroup>
