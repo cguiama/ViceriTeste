@@ -12,6 +12,14 @@ public static class ClientRoutes
         //criação de cliente
         clientRoutes.MapPost("", async (AddClientRequest request, AppDbContext context, CancellationToken ct) =>
         {
+            if (string.IsNullOrWhiteSpace(request.Cpf))
+                return Results.BadRequest("CPF é obrigatório.");
+            if (string.IsNullOrWhiteSpace(request.Nome))
+                return Results.BadRequest("Nome é obrigatório.");
+            if (string.IsNullOrWhiteSpace(request.Mail))
+                return Results.BadRequest("Email é obrigatório.");
+            if (string.IsNullOrWhiteSpace(request.Senha))
+                return Results.BadRequest("Senha é obrigatória.");
             var existingCpf = await context.Clients.AnyAsync(client => client.Cpf == request.Cpf, ct);
             var existingEmail = await context.Clients.AnyAsync(client => client.Mail == request.Mail, ct);
             //verificação de duplicatas
